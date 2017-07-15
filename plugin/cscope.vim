@@ -54,11 +54,11 @@ if !exists('g:cscope_interested_files')
   let g:cscope_interested_files = join(map(files, 'v:val."$"'), '\|')
 endif
 
-if !exists('g:autocscopepath')
+"if !exists('g:autocscopepath')
   let s:cscope_vim_dir = g:autocscopepath
 "else
 "let s:cscope_vim_dir = substitute($HOME,'\\','/','g')."/.cscope.vim"
-endif
+"endif
 
 let s:index_file = s:cscope_vim_dir.'/index'
 
