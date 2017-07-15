@@ -56,8 +56,8 @@ endif
 
 if !exists('g:autocscopepath')
   let s:cscope_vim_dir = g:autocscopepath
-else
-let s:cscope_vim_dir = substitute($HOME,'\\','/','g')."/.cscope.vim"
+"else
+"let s:cscope_vim_dir = substitute($HOME,'\\','/','g')."/.cscope.vim"
 endif
 
 let s:index_file = s:cscope_vim_dir.'/index'
